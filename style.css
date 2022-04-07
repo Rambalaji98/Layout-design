@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+  font-size: 2em;
+  padding: 30px;
+  border: solid 1px black;
+  font-weight: bold;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    border: solid 1px black;
+    width: 500px;
+    height: 500px;
+    padding: 2px;
+}
+
+.row-2 {
+    display: flex;
+    height: 328px;
+}
+
+.card-blue-yellow-red {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-blue-yellow {
+    display: flex;
+}
+
+.card-pink {
+    background-color: pink;
+    width: 432px;
+}
+
+.card-brown {
+    background-color: rgb(143, 82, 3);
+    width: 432px;
+    height: 1px;
+}
+
+.card-red {
+    background-color: tomato;
+    width: 173px;
+    height: 100px;
+}
+
+.card-purple {
+    background-color: rgb(144, 66, 189);
+    width: 60px;
+}
+
+.card-blue {
+    background-color: dodgerblue;
+    width: 60px;
+    height: 100px;
+}
+
+.card-yellow {
+    background-color: yellow;
+    width: 46px;
+}
+
+.card-green {
+    background-color: yellowgreen;
+    width: 60px;
+}
